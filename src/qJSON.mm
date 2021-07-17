@@ -28,7 +28,7 @@ NSDictionary* qJSON::LoadAndParseJSON(NSString *path)
 	NSData *data = [NSData dataWithContentsOfFile:path];
 	NSError *error = nil;
 	NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
-	qASSERTM(error == nil, "Couldn't parse JSON %s with error %s", [path UTF8String], [[error description] UTF8String]);
+	qASSERTM(error == nil && json != nil, "Couldn't parse JSON %s with error %s", [path UTF8String], [[error description] UTF8String]);
 	return json;
 }
 
