@@ -23,6 +23,7 @@ SOFTWARE.
 #ifndef __Q_CORE_H__
 #define __Q_CORE_H__
 
+#include <TargetConditionals.h>
 #include "qTypes.h"
 #include "qAssert.h"
 #include "qFile.h"
