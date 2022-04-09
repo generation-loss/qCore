@@ -27,7 +27,7 @@ typedef unsigned int uint;
 typedef signed char byte;
 typedef unsigned char ubyte;
 
-typedef __fp16 half;
+typedef _Float16 half;
 typedef __attribute__((__ext_vector_type__(2))) __fp16 half2;
 typedef __attribute__((__ext_vector_type__(3))) __fp16 half3;
 typedef __attribute__((__ext_vector_type__(4))) __fp16 half4;
