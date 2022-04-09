@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		5E2D447A2146CEA000C3A908 /* qJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2D44792146CEA000C3A908 /* qJSON.h */; };
 		5E2D447C2146CF5400C3A908 /* qJSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D447B2146CF5400C3A908 /* qJSON.mm */; };
-		5E4A257A27F8087D00F6B6CB /* qCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEB76B11625EE20059DFF2 /* qCore.h */; };
-		5E4A257B27F8087F00F6B6CB /* qTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D27664551283DBA400C36A85 /* qTypes.h */; };
-		5E4A257C27F8088200F6B6CB /* qAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C6747F115483EB006113D0 /* qAssert.h */; };
-		5E4A257D27F8088600F6B6CB /* qFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEBE1E11658EB70059DFF2 /* qFile.h */; };
-		5E4A257E27F8088A00F6B6CB /* qJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2D44792146CEA000C3A908 /* qJSON.h */; };
-		5E4A257F27F8088D00F6B6CB /* qTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D29DD18F1246CC17004E0148 /* qTimer.h */; };
-		5E4A258027F8089700F6B6CB /* qCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* qCore_Prefix.pch */; };
-		5E4A25AC27F8096B00F6B6CB /* qFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2EEBE1C11658EB30059DFF2 /* qFile.mm */; };
-		5E4A25AD27F8096C00F6B6CB /* qJSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D447B2146CF5400C3A908 /* qJSON.mm */; };
-		5E4A25AE27F8096F00F6B6CB /* qTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D29DD18D1246CC0E004E0148 /* qTimer.mm */; };
-		5E4A25E927F80A4500F6B6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A25E827F80A4500F6B6CB /* Foundation.framework */; };
-		5E4A264627F80B7900F6B6CB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A256827F8078E00F6B6CB /* AppKit.framework */; };
+		5E4A267827FB434200F6B6CB /* qCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEB76B11625EE20059DFF2 /* qCore.h */; };
+		5E4A267927FB434200F6B6CB /* qTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D27664551283DBA400C36A85 /* qTypes.h */; };
+		5E4A267A27FB434200F6B6CB /* qAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C6747F115483EB006113D0 /* qAssert.h */; };
+		5E4A267B27FB434200F6B6CB /* qFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEBE1E11658EB70059DFF2 /* qFile.h */; };
+		5E4A267C27FB434200F6B6CB /* qJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2D44792146CEA000C3A908 /* qJSON.h */; };
+		5E4A267D27FB434200F6B6CB /* qTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D29DD18F1246CC17004E0148 /* qTimer.h */; };
+		5E4A267E27FB434200F6B6CB /* qCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* qCore_Prefix.pch */; };
+		5E4A268627FB443000F6B6CB /* qFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2EEBE1C11658EB30059DFF2 /* qFile.mm */; };
+		5E4A268727FB443000F6B6CB /* qJSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D447B2146CF5400C3A908 /* qJSON.mm */; };
+		5E4A268827FB443000F6B6CB /* qTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D29DD18D1246CC0E004E0148 /* qTimer.mm */; };
+		5E4A268927FB443A00F6B6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A25E827F80A4500F6B6CB /* Foundation.framework */; };
+		5E4A268A27FB444100F6B6CB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A256827F8078E00F6B6CB /* AppKit.framework */; };
 		AA747D9F0F9514B9006C5449 /* qCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* qCore_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		D27664561283DBA400C36A85 /* qTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D27664551283DBA400C36A85 /* qTypes.h */; };
@@ -37,8 +37,8 @@
 		5E2D44792146CEA000C3A908 /* qJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qJSON.h; path = include/qJSON.h; sourceTree = "<group>"; };
 		5E2D447B2146CF5400C3A908 /* qJSON.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = qJSON.mm; path = src/qJSON.mm; sourceTree = "<group>"; };
 		5E4A256827F8078E00F6B6CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		5E4A256E27F8082B00F6B6CB /* libqCore-macos.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libqCore-macos.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4A25E827F80A4500F6B6CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E4A266E27FB430900F6B6CB /* libqCore-macos-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libqCore-macos-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA747D9E0F9514B9006C5449 /* qCore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qCore_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D27664551283DBA400C36A85 /* qTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qTypes.h; path = include/qTypes.h; sourceTree = "<group>"; };
@@ -53,12 +53,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E4A256C27F8082B00F6B6CB /* Frameworks */ = {
+		5E4A266C27FB430900F6B6CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A25E927F80A4500F6B6CB /* Foundation.framework in Frameworks */,
-				5E4A264627F80B7900F6B6CB /* AppKit.framework in Frameworks */,
+				5E4A268A27FB444100F6B6CB /* AppKit.framework in Frameworks */,
+				5E4A268927FB443A00F6B6CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libqCore.a */,
-				5E4A256E27F8082B00F6B6CB /* libqCore-macos.dylib */,
+				5E4A266E27FB430900F6B6CB /* libqCore-macos-static.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,17 +132,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5E4A256A27F8082B00F6B6CB /* Headers */ = {
+		5E4A266A27FB430900F6B6CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A258027F8089700F6B6CB /* qCore_Prefix.pch in Headers */,
-				5E4A257A27F8087D00F6B6CB /* qCore.h in Headers */,
-				5E4A257B27F8087F00F6B6CB /* qTypes.h in Headers */,
-				5E4A257C27F8088200F6B6CB /* qAssert.h in Headers */,
-				5E4A257D27F8088600F6B6CB /* qFile.h in Headers */,
-				5E4A257E27F8088A00F6B6CB /* qJSON.h in Headers */,
-				5E4A257F27F8088D00F6B6CB /* qTimer.h in Headers */,
+				5E4A267E27FB434200F6B6CB /* qCore_Prefix.pch in Headers */,
+				5E4A267827FB434200F6B6CB /* qCore.h in Headers */,
+				5E4A267927FB434200F6B6CB /* qTypes.h in Headers */,
+				5E4A267A27FB434200F6B6CB /* qAssert.h in Headers */,
+				5E4A267B27FB434200F6B6CB /* qFile.h in Headers */,
+				5E4A267C27FB434200F6B6CB /* qJSON.h in Headers */,
+				5E4A267D27FB434200F6B6CB /* qTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,22 +163,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E4A256D27F8082B00F6B6CB /* qCore-macos */ = {
+		5E4A266D27FB430900F6B6CB /* qCore-macos-static */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E4A257427F8082B00F6B6CB /* Build configuration list for PBXNativeTarget "qCore-macos" */;
+			buildConfigurationList = 5E4A267427FB430900F6B6CB /* Build configuration list for PBXNativeTarget "qCore-macos-static" */;
 			buildPhases = (
-				5E4A256A27F8082B00F6B6CB /* Headers */,
-				5E4A256B27F8082B00F6B6CB /* Sources */,
-				5E4A256C27F8082B00F6B6CB /* Frameworks */,
+				5E4A266A27FB430900F6B6CB /* Headers */,
+				5E4A266B27FB430900F6B6CB /* Sources */,
+				5E4A266C27FB430900F6B6CB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "qCore-macos";
-			productName = "qcore-macos";
-			productReference = 5E4A256E27F8082B00F6B6CB /* libqCore-macos.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
+			name = "qCore-macos-static";
+			productName = "qCore-macos-static";
+			productReference = 5E4A266E27FB430900F6B6CB /* libqCore-macos-static.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		D2AAC07D0554694100DB518D /* qCore */ = {
 			isa = PBXNativeTarget;
@@ -205,7 +205,7 @@
 			attributes = {
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					5E4A256D27F8082B00F6B6CB = {
+					5E4A266D27FB430900F6B6CB = {
 						CreatedOnToolsVersion = 13.3;
 						DevelopmentTeam = MU45E745AK;
 						ProvisioningStyle = Automatic;
@@ -226,19 +226,19 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* qCore */,
-				5E4A256D27F8082B00F6B6CB /* qCore-macos */,
+				5E4A266D27FB430900F6B6CB /* qCore-macos-static */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E4A256B27F8082B00F6B6CB /* Sources */ = {
+		5E4A266B27FB430900F6B6CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A25AC27F8096B00F6B6CB /* qFile.mm in Sources */,
-				5E4A25AE27F8096F00F6B6CB /* qTimer.mm in Sources */,
-				5E4A25AD27F8096C00F6B6CB /* qJSON.mm in Sources */,
+				5E4A268627FB443000F6B6CB /* qFile.mm in Sources */,
+				5E4A268727FB443000F6B6CB /* qJSON.mm in Sources */,
+				5E4A268827FB443000F6B6CB /* qTimer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 			};
 			name = Release;
 		};
-		5E4A257527F8082B00F6B6CB /* Debug */ = {
+		5E4A267527FB430900F6B6CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,8 +397,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = MU45E745AK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -417,7 +415,7 @@
 			};
 			name = Debug;
 		};
-		5E4A257627F8082B00F6B6CB /* Release */ = {
+		5E4A267627FB430900F6B6CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,8 +433,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MU45E745AK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -451,7 +447,7 @@
 			};
 			name = Release;
 		};
-		5E4A257727F8082B00F6B6CB /* Final */ = {
+		5E4A267727FB430900F6B6CB /* Final */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -469,8 +465,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MU45E745AK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -567,12 +561,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Final;
 		};
-		5E4A257427F8082B00F6B6CB /* Build configuration list for PBXNativeTarget "qCore-macos" */ = {
+		5E4A267427FB430900F6B6CB /* Build configuration list for PBXNativeTarget "qCore-macos-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E4A257527F8082B00F6B6CB /* Debug */,
-				5E4A257627F8082B00F6B6CB /* Release */,
-				5E4A257727F8082B00F6B6CB /* Final */,
+				5E4A267527FB430900F6B6CB /* Debug */,
+				5E4A267627FB430900F6B6CB /* Release */,
+				5E4A267727FB430900F6B6CB /* Final */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Final;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5E4A256D27F8082B00F6B6CB"
-               BuildableName = "libqcore-macos.dylib"
+               BuildableName = "libqCore-macos.dylib"
                BlueprintName = "qCore-macos"
                ReferencedContainer = "container:qCore.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5E4A256D27F8082B00F6B6CB"
-            BuildableName = "libqcore-macos.dylib"
+            BuildableName = "libqCore-macos.dylib"
             BlueprintName = "qCore-macos"
             ReferencedContainer = "container:qCore.xcodeproj">
          </BuildableReference>

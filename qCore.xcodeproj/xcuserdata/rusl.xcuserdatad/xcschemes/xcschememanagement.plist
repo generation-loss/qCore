@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>qCore-macos-static.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>qCore-macos.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>8</integer>
 		</dict>
 		<key>qCore.xcscheme</key>
 		<dict>
