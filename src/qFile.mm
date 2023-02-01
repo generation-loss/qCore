@@ -24,22 +24,22 @@ SOFTWARE.
 
 static NSString* qGetPath(const char* filename)
 {    
-    NSString *nsFileName = [NSString stringWithCString:filename encoding:NSASCIIStringEncoding];
+    NSString* nsFileName = [NSString stringWithCString:filename encoding:NSASCIIStringEncoding];
     
     NSRange extensionRange = [nsFileName rangeOfString:@"." options:NSBackwardsSearch];
-    NSString *nsFileNameNoExtension = [nsFileName substringToIndex:extensionRange.location];
-    NSString *nsExtension = [nsFileName substringFromIndex:(extensionRange.location+1)];
+    NSString* nsFileNameNoExtension = [nsFileName substringToIndex:extensionRange.location];
+    NSString* nsExtension = [nsFileName substringFromIndex:(extensionRange.location+1)];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:nsFileNameNoExtension ofType:nsExtension];
+    NSString* path = [[NSBundle mainBundle] pathForResource:nsFileNameNoExtension ofType:nsExtension];
     return path;
 }
 
 void qLoadFile(const char* filename, char * buffer, const uint bufferLength)
 {
-    NSString *path = qGetPath(filename);
+    NSString* path = qGetPath(filename);
             
-    NSError *error = nil;
-    NSString *file = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];  
+    NSError* error = nil;
+    NSString* file = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];  
     
     qASSERTM(error == nil, "qLoadFile: error loading %s", filename);
     qASSERT(file != nil);
@@ -51,9 +51,9 @@ void qLoadFile(const char* filename, char * buffer, const uint bufferLength)
 
 const void* qLoadData(const char* filename, uint &bytes)
 {
-    NSString *path = qGetPath(filename);
+    NSString* path = qGetPath(filename);
     
-    NSData *data = [[NSData alloc] initWithContentsOfFile:path]; 
+    NSData* data = [[NSData alloc] initWithContentsOfFile:path]; 
     
     qASSERTM(data != nil, "qLoadData: error loading %s", filename);
     

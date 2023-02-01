@@ -23,47 +23,47 @@ SOFTWARE.
 #include "qJSON.h"
 #include "qAssert.h"
 
-NSDictionary* qJSON::LoadAndParseJSON(NSString *path)
+NSDictionary* qJSON::LoadAndParseJSON(NSString* path)
 {
-	NSData *data = [NSData dataWithContentsOfFile:path];
-	NSError *error = nil;
-	NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+	NSData* data = [NSData dataWithContentsOfFile:path];
+	NSError* error = nil;
+	NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
 	qASSERTM(error == nil && json != nil, "Couldn't parse JSON %s with error %s", [path UTF8String], [[error description] UTF8String]);
 	return json;
 }
 
 NSArray* qJSON::Array(NSDictionary* JSON, NSString* key, NSArray* defaultValue)
 {
-	NSArray *array = [JSON objectForKey:key];
+	NSArray* array = [JSON objectForKey:key];
 	return (array != nil) ? array : defaultValue;
 }
 
 NSString* qJSON::String(NSDictionary* JSON, NSString* key, NSString* defaultValue)
 {
-	NSString *string = [JSON objectForKey:key];
+	NSString* string = [JSON objectForKey:key];
 	return ((string != nil) && (string.length != 0)) ? string : defaultValue;
 }
 
 float qJSON::Float(NSDictionary* JSON, NSString* key, float defaultValue)
 {
-	NSNumber *number = [JSON objectForKey:key];
+	NSNumber* number = [JSON objectForKey:key];
 	return (number != nil) ? number.floatValue : defaultValue;
 }
 
 NSInteger qJSON::Int(NSDictionary* JSON, NSString* key, NSInteger defaultValue)
 {
-	NSNumber *number = [JSON objectForKey:key];
+	NSNumber* number = [JSON objectForKey:key];
 	return (number != nil) ? number.intValue : defaultValue;
 }
 
 NSUInteger qJSON::UInt(NSDictionary* JSON, NSString* key, NSUInteger defaultValue)
 {
-	NSNumber *number = [JSON objectForKey:key];
+	NSNumber* number = [JSON objectForKey:key];
 	return (number != nil) ? number.unsignedIntegerValue : defaultValue;
 }
 
 bool qJSON::Bool(NSDictionary* JSON, NSString* key, bool defaultValue)
 {
-	NSNumber *boolean = [JSON objectForKey:key];
+	NSNumber* boolean = [JSON objectForKey:key];
 	return (boolean != nil) ? boolean.boolValue : defaultValue;
 }
